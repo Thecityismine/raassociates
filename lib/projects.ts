@@ -161,7 +161,7 @@ export const projects: Project[] = [
     id: 'darbe-meyer-temple',
     title: 'Darbe Meyer Temple',
     location: 'New York, NY',
-    category: 'retail',
+    category: 'residential',
     description:
       'A sacred community space designed to honor cultural heritage while meeting the functional needs of a modern congregation.',
     coverImage: '/images/projects/retail/Darbe Meher.jpg',
