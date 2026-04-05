@@ -83,7 +83,7 @@ export const projects: Project[] = [
     location: 'New York, NY',
     category: 'corporate',
     description:
-      'A flexible workspace design tailored to Knotel\'s agile model — delivering a high-performance office environment built for modern teams.',
+      'Located in the heart of Miami, Knotel\'s office space was designed to embody the company\'s commitment to flexibility and innovation, catering to the diverse needs of modern businesses. A blend of contemporary aesthetics with local influences — incorporating open-plan layouts, modular furniture, and vibrant communal areas to foster collaboration and creativity.',
     coverImage: '/images/projects/corporate/Knotel.jpg',
     images: ['/images/projects/corporate/Knotel.jpg'],
     featured: false,
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     location: 'Florida',
     category: 'hospitality',
     description:
-      'A hospitality interior designed to deliver a distinctive guest experience through thoughtful spatial planning and brand-aligned design.',
+      'The recent interior upgrade of Rodbenders in Cutler Bay, FL, reflects a modern approach to enhancing the dining experience. The new design features an open layout with sleek, modern furnishings and high-quality materials, providing a comfortable and stylish environment for customers.',
     coverImage: '/images/projects/hospitality/Rodbenders .jpeg',
     images: ['/images/projects/hospitality/Rodbenders .jpeg'],
     featured: false,
