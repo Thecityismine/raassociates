@@ -37,7 +37,7 @@ export default function ProjectsPage() {
                   key={cat}
                   onClick={() => setActive(cat)}
                   className={`text-[11px] tracking-[0.4em] uppercase transition-colors duration-200 shrink-0 ${
-                    active === cat ? 'text-[#F5F5F5]' : 'text-[#444] hover:text-muted'
+                    active === cat ? 'text-[#F5F5F5]' : 'text-[#777] hover:text-[#F5F5F5]'
                   }`}
                 >
                   {cat}
