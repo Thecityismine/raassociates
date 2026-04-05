@@ -54,7 +54,7 @@ export default function Services() {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group pt-10 pb-12 md:px-8 first:md:pl-0 last:md:pr-0"
             >
-              <p className="font-display text-6xl text-divider group-hover:text-accent transition-colors duration-500 mb-8 leading-none">
+              <p className="font-display text-6xl text-[#3a3a3a] group-hover:text-accent transition-colors duration-500 mb-8 leading-none">
                 {service.number}
               </p>
               <h3 className="font-display text-xl font-light text-[#F5F5F5] mb-4">
