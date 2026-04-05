@@ -7,13 +7,13 @@ const partners = [
   {
     name: 'Jorge Medina',
     title: 'Principal — Architecture & Project Delivery',
-    image: '/images/jorge-medina.jpg',
+    image: '/images/Jorge - Profile.png',
     bio: 'Architect and Senior Project Manager with over 16 years of experience delivering corporate interior and ground-up projects across Miami, New York, and California. Specializing in leading projects from concept through construction — combining design, planning, and execution to create high-performing, well-built spaces. The focus is simple: deliver on time, within budget, and at a level that clients actually notice.',
   },
   {
     name: 'Raymond Ahmadi',
     title: 'Principal — Structural & MEP Engineering',
-    image: '/images/raymond-ahmadi.jpg',
+    image: '/images/Raymond - profile.png',
     bio: 'Multidisciplinary engineering professional and Principal at RA Associates, bringing deep expertise across civil, environmental, and structural systems. Specializing in dam engineering, hydrology, hydraulics, and construction management — delivering practical, high-performance solutions for complex projects.',
   },
 ]

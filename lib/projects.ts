@@ -17,12 +17,8 @@ export const projects: Project[] = [
     category: 'residential',
     description:
       'A grand residential commission featuring custom architectural detailing, a dramatic geometric ceiling design, and thoughtfully planned interior spaces — from initial concept through construction completion.',
-    coverImage: '/images/projects/zaid-residence.jpg',
-    images: [
-      '/images/projects/zaid-residence.jpg',
-      '/images/projects/zaid-residence-model.jpg',
-      '/images/projects/zaid-residence-exterior.jpg',
-    ],
+    coverImage: '/images/projects/Zaid-1.webp',
+    images: ['/images/projects/Zaid-1.webp'],
     featured: true,
   },
   {
@@ -32,8 +28,8 @@ export const projects: Project[] = [
     category: 'commercial',
     description:
       'A commercial facility designed for efficiency and customer experience, balancing functional requirements with a refined architectural presence.',
-    coverImage: null,
-    images: [],
+    coverImage: '/images/projects/Pearlmont1.jpg',
+    images: ['/images/projects/Pearlmont1.jpg'],
     featured: true,
   },
   {
@@ -43,8 +39,8 @@ export const projects: Project[] = [
     category: 'commercial',
     description:
       'A sacred community space designed to honor cultural heritage while meeting the functional needs of a modern congregation.',
-    coverImage: null,
-    images: [],
+    coverImage: '/images/projects/Darbe Meher.jpg',
+    images: ['/images/projects/Darbe Meher.jpg'],
     featured: true,
   },
 ]

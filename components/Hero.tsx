@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
-        style={{ backgroundImage: "url('/images/hero.jpg')" }}
+        style={{ backgroundImage: "url('/images/projects/Zaid-1.webp')" }}
       />
 
       {/* Layered dark overlay */}
