@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { projects } from '@/lib/projects'
 
+const featured = projects.filter((p) => p.featured).slice(0, 3)
+
 export default function FeaturedProjects() {
   return (
     <section className="border-t border-divider py-28 md:py-36">
@@ -33,7 +35,7 @@ export default function FeaturedProjects() {
 
         {/* Projects grid */}
         <div className="grid md:grid-cols-3 gap-5 md:gap-6">
-          {projects.map((project, i) => (
+          {featured.map((project, i) => (
             <motion.article
               key={project.id}
               initial={{ opacity: 0, y: 40 }}
