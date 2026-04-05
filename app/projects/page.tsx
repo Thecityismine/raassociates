@@ -36,7 +36,7 @@ export default function ProjectsPage() {
                 <button
                   key={cat}
                   onClick={() => setActive(cat)}
-                  className={`text-[11px] tracking-[0.4em] uppercase transition-colors duration-200 shrink-0 ${
+                  className={`text-sm tracking-[0.3em] uppercase transition-colors duration-200 shrink-0 ${
                     active === cat ? 'text-[#F5F5F5]' : 'text-[#777] hover:text-[#F5F5F5]'
                   }`}
                 >
