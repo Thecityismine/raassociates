@@ -13,26 +13,26 @@ export default function Footer() {
           RA Associates
         </Link>
 
-        <p className="text-[11px] tracking-[0.25em] uppercase text-[#444] text-center">
-          &copy; {year} RA Associates &nbsp;&middot;&nbsp; New York &amp; Miami
+        <p className="text-sm tracking-[0.2em] uppercase text-[#777] text-center">
+          &copy; {year} &nbsp;RA Associates &nbsp;&middot;&nbsp; New York &amp; Miami
         </p>
 
         <nav className="flex gap-8">
           <Link
             href="/projects"
-            className="text-[11px] tracking-[0.25em] uppercase text-[#444] hover:text-muted transition-colors"
+            className="text-sm tracking-[0.2em] uppercase text-[#777] hover:text-[#F5F5F5] transition-colors"
           >
             Projects
           </Link>
           <a
             href="#about"
-            className="text-[11px] tracking-[0.25em] uppercase text-[#444] hover:text-muted transition-colors"
+            className="text-sm tracking-[0.2em] uppercase text-[#777] hover:text-[#F5F5F5] transition-colors"
           >
             About
           </a>
           <a
             href="#contact"
-            className="text-[11px] tracking-[0.25em] uppercase text-[#444] hover:text-muted transition-colors"
+            className="text-sm tracking-[0.2em] uppercase text-[#777] hover:text-[#F5F5F5] transition-colors"
           >
             Contact
           </a>
