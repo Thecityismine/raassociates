@@ -23,7 +23,7 @@ export default function Contact() {
   }
 
   const fieldClass =
-    'w-full bg-transparent border-b border-divider focus:border-accent outline-none py-3.5 text-[#F5F5F5] placeholder-[#3a3a3a] text-sm transition-colors duration-300 font-body'
+    'w-full bg-transparent border-b border-divider focus:border-accent outline-none py-3.5 text-[#F5F5F5] placeholder-[#666] text-sm transition-colors duration-300 font-body'
 
   return (
     <section id="contact" className="border-t border-divider py-28 md:py-36">
