@@ -2,7 +2,7 @@ export type Project = {
   id: string
   title: string
   location: string
-  category: 'residential' | 'commercial'
+  category: 'corporate' | 'residential' | 'hospitality' | 'retail'
   description: string
   coverImage: string | null
   images: string[]
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     id: 'perlmount-car-wash',
     title: 'Perlmount Car Wash',
     location: 'New York',
-    category: 'commercial',
+    category: 'retail',
     description:
       'A commercial facility designed for efficiency and customer experience, balancing functional requirements with a refined architectural presence.',
     coverImage: '/images/projects/Pearlmont1.jpg',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     id: 'darbe-meyer-temple',
     title: 'Darbe Meyer Temple',
     location: 'New York',
-    category: 'commercial',
+    category: 'corporate',
     description:
       'A sacred community space designed to honor cultural heritage while meeting the functional needs of a modern congregation.',
     coverImage: '/images/projects/Darbe Meher.jpg',

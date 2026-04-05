@@ -17,9 +17,15 @@ const services = [
   },
   {
     number: '03',
-    title: 'Engineering & MEP',
+    title: 'Hospitality',
     description:
-      'Structural and mechanical/electrical/plumbing expertise integrated from day one. Our in-house engineering capability means fewer surprises and better-built projects.',
+      'Guest-centered environments that balance atmosphere with operational efficiency — from boutique hotels to restaurants and lounges built for experience.',
+  },
+  {
+    number: '04',
+    title: 'Retail',
+    description:
+      'Retail spaces designed to convert. We create environments that elevate the brand, guide the customer journey, and hold up through heavy daily use.',
   },
 ]
 
@@ -38,7 +44,7 @@ export default function Services() {
           <h2 className="font-display text-4xl md:text-5xl font-light text-[#F5F5F5]">Services</h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-divider border-t border-divider">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-divider border-t border-divider">
           {services.map((service, i) => (
             <motion.div
               key={service.number}
@@ -46,12 +52,12 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group pt-10 pb-12 md:px-10 first:md:pl-0 last:md:pr-0"
+              className="group pt-10 pb-12 md:px-8 first:md:pl-0 last:md:pr-0"
             >
               <p className="font-display text-6xl text-divider group-hover:text-accent transition-colors duration-500 mb-8 leading-none">
                 {service.number}
               </p>
-              <h3 className="font-display text-xl md:text-2xl font-light text-[#F5F5F5] mb-4">
+              <h3 className="font-display text-xl font-light text-[#F5F5F5] mb-4">
                 {service.title}
               </h3>
               <p className="text-sm text-muted leading-[1.9]">{service.description}</p>

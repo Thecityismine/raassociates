@@ -7,7 +7,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import { projects } from '@/lib/projects'
 
-const categories = ['all', 'commercial', 'residential'] as const
+const categories = ['all', 'corporate', 'residential', 'hospitality', 'retail'] as const
 type Category = (typeof categories)[number]
 
 export default function ProjectsPage() {
