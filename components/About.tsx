@@ -68,7 +68,7 @@ export default function About() {
                 {partner.name}
               </h3>
               <div className="w-8 h-px bg-accent mb-6" />
-              <p className="text-sm text-muted leading-[1.9]">{partner.bio}</p>
+              <p className="text-base text-muted leading-[1.9]">{partner.bio}</p>
             </div>
           </motion.div>
         ))}

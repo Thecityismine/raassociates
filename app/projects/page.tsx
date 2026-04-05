@@ -29,23 +29,25 @@ export default function ProjectsPage() {
             </h1>
           </div>
 
-          {/* Filter bar */}
-          <div className="flex gap-8 border-b border-divider pb-6 mb-14">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setActive(cat)}
-                className={`text-[10px] tracking-[0.4em] uppercase transition-colors duration-200 ${
-                  active === cat ? 'text-[#F5F5F5]' : 'text-[#444] hover:text-muted'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+          {/* Filter bar — horizontally scrollable on mobile */}
+          <div className="border-b border-divider mb-14">
+            <div className="flex gap-8 pb-6 overflow-x-auto scrollbar-none">
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => setActive(cat)}
+                  className={`text-[11px] tracking-[0.4em] uppercase transition-colors duration-200 shrink-0 ${
+                    active === cat ? 'text-[#F5F5F5]' : 'text-[#444] hover:text-muted'
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-8">
             <AnimatePresence mode="popLayout">
               {filtered.map((project, i) => (
                 <motion.article
@@ -78,17 +80,17 @@ export default function ProjectsPage() {
                   {/* Info */}
                   <div>
                     <div className="flex items-start justify-between gap-4 mb-3">
-                      <h2 className="font-display text-xl md:text-2xl font-light text-[#F5F5F5]">
+                      <h2 className="font-display text-2xl font-light text-[#F5F5F5]">
                         {project.title}
                       </h2>
-                      <p className="text-[10px] tracking-[0.35em] uppercase text-accent shrink-0 mt-1.5">
+                      <p className="text-[11px] tracking-[0.35em] uppercase text-accent shrink-0 mt-2">
                         {project.category}
                       </p>
                     </div>
-                    <p className="text-[10px] tracking-[0.35em] uppercase text-muted mb-4">
+                    <p className="text-[11px] tracking-[0.35em] uppercase text-muted mb-4">
                       {project.location}
                     </p>
-                    <p className="text-sm text-muted leading-[1.9]">{project.description}</p>
+                    <p className="text-base text-muted leading-[1.85]">{project.description}</p>
                   </div>
                 </motion.article>
               ))}
