@@ -13,8 +13,8 @@ export default function Hero() {
       />
 
       {/* Layered dark overlay */}
-      <div className="absolute inset-0 bg-[#0A0A0A]/50" />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/30 via-transparent to-[#0A0A0A]" />
+      <div className="absolute inset-0 bg-[#0A0A0A]/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/40 via-transparent to-[#0A0A0A]" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
