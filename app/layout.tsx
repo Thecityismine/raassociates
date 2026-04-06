@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: 'RA Associates | Architecture & Engineering',
   description:
     'From Concept to Completion, Workplace Ready. Architecture and engineering firm with offices in New York and Miami.',
+  icons: {
+    icon: '/Logo.png',
+    apple: '/Logo.png',
+    shortcut: '/Logo.png',
+  },
 }
 
 export default function RootLayout({
